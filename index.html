@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome Portfolio - Portföy & Blog</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">AwesomePortfolio</div>
+            <ul class="nav-menu">
+                <li><a href="#home">Ana Sayfa</a></li>
+                <li><a href="#portfolio">Portföy</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">İletişim</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Merhaba! Ben Bir Geliştirici</h1>
+                <p>Modern web teknolojileriyle harika şeyler oluşturuyorum</p>
+                <button class="btn btn-primary">Portföyümü Gör</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2>Projelerim</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-card">
+                    <div class="card-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);"></div>
+                    <div class="card-content">
+                        <h3>Proje 1</h3>
+                        <p>React ile oluşturulmuş modern e-ticaret uygulaması</p>
+                        <div class="tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Node.js</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-card">
+                    <div class="card-image" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);"></div>
+                    <div class="card-content">
+                        <h3>Proje 2</h3>
+                        <p>Vue.js ile geliştirilmiş sosyal medya platformu</p>
+                        <div class="tags">
+                            <span class="tag">Vue.js</span>
+                            <span class="tag">Firebase</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-card">
+                    <div class="card-image" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);"></div>
+                    <div class="card-content">
+                        <h3>Proje 3</h3>
+                        <p>Python ile yapay zeka destekli veri analiz aracı</p>
+                        <div class="tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">AI/ML</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="blog">
+        <div class="container">
+            <h2>Blog Yazılarım</h2>
+            <div class="blog-grid">
+                <article class="blog-post">
+                    <div class="post-date">08 Eylül 2024</div>
+                    <h3>Web Geliştirmede En İyi Pratikler</h3>
+                    <p>Modern web geliştirme dünyasında başarılı olmak için bilmeniz gereken en önemli prensipler...</p>
+                    <a href="#" class="read-more">Devamını Oku →</a>
+                </article>
+
+                <article class="blog-post">
+                    <div class="post-date">05 Eylül 2024</div>
+                    <h3>React Hooks Kullanım Rehberi</h3>
+                    <p>React Hooks'ların gücünden yararlanarak daha temiz ve verimli bileşenler yazın...</p>
+                    <a href="#" class="read-more">Devamını Oku →</a>
+                </article>
+
+                <article class="blog-post">
+                    <div class="post-date">01 Eylül 2024</div>
+                    <h3>CSS Grid ile Responsive Tasarım</h3>
+                    <p>CSS Grid kullanarak karmaşık layout'ları basit ve etkili şekilde oluşturun...</p>
+                    <a href="#" class="read-more">Devamını Oku →</a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>İletişime Geçin</h2>
+            <form class="contact-form">
+                <input type="text" placeholder="Adınız" required>
+                <input type="email" placeholder="Email Adresiniz" required>
+                <textarea placeholder="Mesajınız" rows="5" required></textarea>
+                <button type="submit" class="btn btn-primary">Gönder</button>
+            </form>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Awesome Portfolio. Tüm hakları saklıdır.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
